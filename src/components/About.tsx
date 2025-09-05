@@ -83,7 +83,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto container-padding">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 block bg-gradient-to-r from-green-600 to-cyan-400 bg-clip-text text-transparent animate-pulse-glow">
-            About CodeCraft
+            About Code Lab Innovations
           </h2>
           <p className="text-xl max-w-3xl mx-auto">
             We are a passionate team of developers and designers dedicated to creating

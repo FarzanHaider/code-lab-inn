@@ -157,7 +157,7 @@
 
   .bg {
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('./bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('../public/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

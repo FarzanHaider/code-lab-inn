@@ -10,7 +10,7 @@ import {
   Megaphone,       // Digital Marketing
   Brain,           // AI Solutions
 } from "lucide-react";
-import "./Service.css"
+
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -159,6 +159,42 @@ const Services = () => {
           ))}
         </div>
       </div>
+      <style>
+{ `       .flip-container {
+  perspective: 1000px;
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  transform-style: preserve-3d;
+  transition: transform 1s ease-in-out;
+}
+.flip-card-1 {
+  position: relative;
+  width: 100%;
+  height: 320px;
+
+}
+
+.flip-container:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+`}
+      </style>
     </section>
   );
 };

@@ -10,8 +10,7 @@ import {
   Megaphone,       // Digital Marketing
   Brain,           // AI Solutions
 } from "lucide-react";
-
-import "./service.css"; // ⬅️ custom CSS for flip
+import "./Service.css"
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
